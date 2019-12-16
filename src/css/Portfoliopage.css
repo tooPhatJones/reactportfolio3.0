@@ -1,0 +1,7 @@
+.CardComponent {
+    flex: 1;
+    background-color: #282c34;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Assets/5-dots.png");
+  }

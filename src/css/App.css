@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  
 }
 
 .App-logo {
@@ -13,15 +17,12 @@
   }
 }
 
-.App-header {
+.main {
+  flex: 1;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("../Assets/5-dots.png");
 }
 
 .App-link {
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  background-color: aqua;
+  height: 7vh;
+}
+
+.footerimg{
+  height: 5vh;
 }
