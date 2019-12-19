@@ -20,19 +20,13 @@ function App() {
     <Router>
       <div className="App">
         <div className="main">
-
-
           <Header />
           <Route path='/' exact component={Portfoliopage}></Route>
           <Route path='/Portfoliopage' component={Portfoliopage}></Route>
           <Route path='/About' component={About}></Route>
-
         </div>
-
-     
         <Footer />
       </div>
-
     </Router>
   );
 }

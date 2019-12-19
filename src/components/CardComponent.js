@@ -5,22 +5,16 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Button from 'react-bootstrap/Button'
 import Tooltip from 'react-bootstrap/Tooltip'
 
-function renderTooltip(props) {
-    
-    return <Tooltip {...props}>{quicktest}</Tooltip>;
-}
-var quicktest =  'this is a test';
+
+
 function CardComponent(props) {
-    console.log('test')
-    var t = 'ttttt'
-    quicktest = props.Tooltip
     return (
         <div className="CardComponent">
-
             <OverlayTrigger
                 placement="bottom"
-                overlay={renderTooltip}
-                test ={t}
+                overlay={function renderTooltip(vars) {
+                    return <Tooltip {...vars}>{props.tooltip}</Tooltip>;
+                }}
             >
                 <Card bg="light" style={{ width: props.width }}>
 
