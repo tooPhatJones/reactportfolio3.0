@@ -1,0 +1,22 @@
+.footer {
+    background-color: #f8f9fa;
+    height: 7vh;
+  }
+  
+.footerimg{
+    height: 5vh;
+    margin: 5px;
+  }
+
+  .footerimg:hover{
+    opacity: .5;
+  }
+  .copywrite{
+      display: inline;
+      font-size: 10px;
+      float: left bottom;
+  }
+
+  .links{
+      margin-left: 15px;
+  }
