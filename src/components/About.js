@@ -61,7 +61,34 @@ function About(props) {
             </div>
 
             <Container>
-
+                <CardComponent
+                    image={node}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2 years'
+                    title="NOdeJS"
+                />
+                <CardComponent
+                    image={javascript}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='3 years'
+                    title="Javascript"
+                />
+                <CardComponent
+                    image={css}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='3 years'
+                    title="CSS3"
+                />
+                <CardComponent
+                    image={html}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='3 years'
+                    title="HTML5"
+                />
                 <CardComponent
                     image={react}
                     width={widthvar}
@@ -70,11 +97,18 @@ function About(props) {
                     title="React"
                 />
                 <CardComponent
-                    image={access}
+                    image={angular}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='1 year'
-                    title="MS Access"
+                    tooltip='6 months'
+                    title="Angular 8"
+                />
+                 <CardComponent
+                    image={vue}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='6 months'
+                    title="VueJS"
                 />
                 <CardComponent
                     image={agile}
@@ -83,13 +117,7 @@ function About(props) {
                     tooltip='1 year'
                     title="Agile"
                 />
-                <CardComponent
-                    image={angular}
-                    width={widthvar}
-                    height={heightvar}
-                    tooltip='6 months'
-                    title="Angular 8"
-                />
+
                 <CardComponent
                     image={aws}
                     width={widthvar}
@@ -126,12 +154,13 @@ function About(props) {
                     title="Dapper"
                 />
                 <CardComponent
-                    image={css}
+                    image={access}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='3 years'
-                    title="CSS3"
+                    tooltip='1 year'
+                    title="MS Access"
                 />
+
                 <CardComponent
                     image={git}
                     width={widthvar}
@@ -139,13 +168,7 @@ function About(props) {
                     tooltip='3 years'
                     title="Git"
                 />
-                <CardComponent
-                    image={html}
-                    width={widthvar}
-                    height={heightvar}
-                    tooltip='3 years'
-                    title="HTML5"
-                />
+
                 <CardComponent
                     image={java}
                     width={widthvar}
@@ -153,20 +176,8 @@ function About(props) {
                     tooltip='1 year'
                     title="Java"
                 />
-                <CardComponent
-                    image={javascript}
-                    width={widthvar}
-                    height={heightvar}
-                    tooltip='3 years'
-                    title="Javascript"
-                />
-                <CardComponent
-                    image={node}
-                    width={widthvar}
-                    height={heightvar}
-                    tooltip='2 years'
-                    title="NOdeJS"
-                />
+
+
                 <CardComponent
                     image={jira}
                     width={widthvar}
@@ -208,13 +219,7 @@ function About(props) {
                     tooltip='6 months'
                     title="Python3"
                 />
-                <CardComponent
-                    image={vue}
-                    width={widthvar}
-                    height={heightvar}
-                    tooltip='6 months'
-                    title="VueJS"
-                />
+               
             </Container>
             <Button className="contactbutton" variant="primary" onClick={() => setModalShow(true)}>
                 Contact me!

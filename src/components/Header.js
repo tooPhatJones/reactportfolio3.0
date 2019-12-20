@@ -15,13 +15,16 @@ function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="#home"><Link to='/About'>About</Link></Nav.Link>
+                        
 
                         <Nav.Link
                             href="#link">  <Link to='/Portfoliopage'>Portfolio</Link></Nav.Link>
+                        <a class='loneanchor'
+                            href="https://docs.google.com/document/d/1YP1scTyrv3Z-voqNcL6EVOPC5KF4vi2nyamLb9ldfQo/edit" target='none'>  Resume</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
-        </div>
+        </div >
     );
 }
 

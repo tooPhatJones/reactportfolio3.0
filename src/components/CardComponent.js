@@ -17,7 +17,6 @@ function CardComponent(props) {
                 }}
             >
                 <Card bg="light" style={{ width: props.width }}>
-
                     <Card.Body className='projectCardBody'>
                         <Card.Img variant="top" src={props.image} style={{ height: props.height}} />
                         <Card.Title>{props.title}</Card.Title>
