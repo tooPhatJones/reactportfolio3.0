@@ -10,14 +10,14 @@ import nyt from '../Assets/nyt.png';
 
 
 function Portfoliopage(props) {
-  console.log('test')
+  var widthvar = '18rem';
+  var heightvar = '130px';
   return (
     <div className="Portfoliopage">
-     
-
         <CardComponent
           image={ang}
-          width='18rem'
+          width={widthvar}
+          height={heightvar}
           title="Sample Angular Project"
           text='Same Project in Angular'
           site='https://angularportfolio-99685.firebaseapp.com'
@@ -25,7 +25,8 @@ function Portfoliopage(props) {
         />
         <CardComponent
           image={vue}
-          width='18rem'
+          width={widthvar}
+          height={heightvar}
           title="Sample Vue.JS Project"
           text='Same Project in Vue.JS'
           site='https://vueportfolio-f5902.firebaseapp.com/#/'
@@ -33,7 +34,8 @@ function Portfoliopage(props) {
         />
         <CardComponent
           image={reactproj}
-          width='18rem'
+          width={widthvar}
+          height={heightvar}
           title="Sample React Project"
           text='Same Project in React'
           site='https://david-farley-portfolio.netlify.com/'
@@ -42,7 +44,8 @@ function Portfoliopage(props) {
         />
           <CardComponent
           image={calculator}
-          width='18rem'
+          width={widthvar}
+          height={heightvar}
           title="Simple calculator app"
           site='https://davidfarley71.github.io/jQueryCalculator/'
           text='Demonstrate use of Jquery'
@@ -50,10 +53,11 @@ function Portfoliopage(props) {
         />
             <CardComponent
           image={nyt}
-          width='18rem'
-          title="New York Times Article Search"
+          width={widthvar}
+          height={heightvar}
+          title="New York Times Search"
           site='https://davidfarley71.github.io/NewYorkTimesSearch/index.html'
-          text='Demonstrate Bootstrap and useing a public API'
+          text='Bootstrap and public API'
           git='https://github.com/davidfarley71/NewYorkTimesSearch'
         />
     </div>
