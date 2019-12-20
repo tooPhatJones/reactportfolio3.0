@@ -5,7 +5,8 @@ import CardComponent from './CardComponent'
 import ang from '../Assets/angularPortfolio.png';
 import vue from '../Assets/VueVersion.png';
 import reactproj from '../Assets/ReactPortfolio.png';
-import Jumbotron from 'react-bootstrap/Navbar'
+import calculator from '../Assets/jqueryCalculator.png';
+import nyt from '../Assets/nyt.png';
 
 
 function Portfoliopage(props) {
@@ -36,7 +37,24 @@ function Portfoliopage(props) {
           title="Sample React Project"
           text='Same Project in React'
           site='https://david-farley-portfolio.netlify.com/'
-          git='https://github.com/davidfarley71/PortfolioProject2.0'
+          git='https://github.com/davidfarley71/Portfol
+          ioProject2.0'
+        />
+          <CardComponent
+          image={calculator}
+          width='18rem'
+          title="Simple calculator app"
+          site='https://davidfarley71.github.io/jQueryCalculator/'
+          text='Demonstrate use of Jquery'
+          git='https://github.com/davidfarley71/jQueryCalculator'
+        />
+            <CardComponent
+          image={nyt}
+          width='18rem'
+          title="New York Times Article Search"
+          site='https://davidfarley71.github.io/NewYorkTimesSearch/index.html'
+          text='Demonstrate Bootstrap and useing a public API'
+          git='https://github.com/davidfarley71/NewYorkTimesSearch'
         />
     </div>
   );
