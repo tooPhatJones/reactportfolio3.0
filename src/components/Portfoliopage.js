@@ -7,6 +7,7 @@ import vue from '../Assets/VueVersion.png';
 import reactproj from '../Assets/ReactPortfolio.png';
 import calculator from '../Assets/jqueryCalculator.png';
 import nyt from '../Assets/nyt.png';
+import dotdata from '../Assets/DotDataProject.png';
 
 
 function Portfoliopage(props) {
@@ -59,6 +60,15 @@ function Portfoliopage(props) {
           site='https://davidfarley71.github.io/NewYorkTimesSearch/index.html'
           text='Bootstrap and public API'
           git='https://github.com/davidfarley71/NewYorkTimesSearch'
+        />
+        <CardComponent
+          image={dotdata}
+          width={widthvar}
+          height={heightvar}
+          title="Simple Angular8 with filter and sort"
+          site='https://bookshelf-7d8bd.web.app/'
+          text='Responsive design with modal slideshow, Jasmine and karma tests'
+          git='https://github.com/davidfarley71/Bookshelf'
         />
     </div>
   );
