@@ -13,7 +13,7 @@ function Footer(props) {
         <footer className='footer'>
                 <Row>
                     <Col md={3} lg={1} >
-                    <div className='copywrite' >© David Farley 2019</div>
+                    <div className='copywrite' >© David Farley 2020</div>
                     </Col>
                     <Col md={6} lg={{offset: 1, span: 7}} >
                        

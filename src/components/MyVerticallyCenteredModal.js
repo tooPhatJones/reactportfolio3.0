@@ -82,9 +82,8 @@ function MyVerticallyCenteredModal(props) {
             </Modal.Body>
             <Modal.Footer>
                 <Button onClick={postSuggestion}>Send</Button>
-                    <Button onClick={testfunc}>test</Button>
+                    {/* <Button onClick={testfunc}>test</Button> */}
             </Modal.Footer>
-
         </Modal>
     );
 }

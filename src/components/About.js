@@ -23,6 +23,12 @@ import php from '../Assets/skills/php.png'
 import postgress from '../Assets/skills/postgress.png'
 import python from '../Assets/skills/python3.jpg'
 import vue from '../Assets/skills/vue2.png'
+import pwa from '../Assets/skills/pwa.png'
+import expressjs from '../Assets/skills/expressjs.png'
+import ahk from '../Assets/skills/ahk.jfif'
+import webpack from '../Assets/skills/webpack.png'
+import typescript from '../Assets/skills/typescript.png'
+import bable from '../Assets/skills/bable2.png'
 import mugshot from '../Assets/mugshot.jpg'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
@@ -55,7 +61,7 @@ function About(props) {
                         <p>You can see all my skills below!</p>
                         <p>I deliver full service web solutions to help your business maximize productivity and performance online. When it comes to websites it’s not just about creating something great looking, it needs to deliver results for you. Using my skills across both front end and back end I will produce for you not only great presentations but also scalable and performant data management systems.</p>
                         <p>
-                            Every website and business has different needs and faces unique challenges. I have a deep technology toolkit and extensive independent experience allowing me to quickly integrate with any existing web development team or even build a project for you from scratch. Check out some samples of my work below:</p>
+                            Every website and business has different needs and faces unique challenges. I have a deep technology toolkit and extensive independent experience allowing me to quickly integrate with any existing web development team or even build a project for you from scratch. Check out some samples of my work.</p>
                     </Col>
                 </Row>
             </div>
@@ -66,7 +72,7 @@ function About(props) {
                     width={widthvar}
                     height={heightvar}
                     tooltip='2 years'
-                    title="NOdeJS"
+                    title="NodeJS"
                 />
                 <CardComponent
                     image={javascript}
@@ -74,6 +80,13 @@ function About(props) {
                     height={heightvar}
                     tooltip='3 years'
                     title="Javascript"
+                />
+                  <CardComponent
+                    image={typescript}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='1 year'
+                    title="Typescript"
                 />
                 <CardComponent
                     image={css}
@@ -94,7 +107,29 @@ function About(props) {
                     width={widthvar}
                     height={heightvar}
                     tooltip='1 year'
-                    title="React"
+                    title="
+                    React"
+                />
+                <CardComponent
+                    image={expressjs}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='1 year'
+                    title="ExpressJS"
+                />
+                 <CardComponent
+                    image={webpack}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='1 year'
+                    title="Webpack"
+                />
+                <CardComponent
+                    image={bable}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='1 year'
+                    title="BabelJS"
                 />
                 <CardComponent
                     image={angular}
@@ -109,6 +144,13 @@ function About(props) {
                     height={heightvar}
                     tooltip='6 months'
                     title="VueJS"
+                />
+                <CardComponent
+                    image={pwa}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2 years'
+                    title="PWA"
                 />
                 <CardComponent
                     image={agile}
@@ -160,7 +202,13 @@ function About(props) {
                     tooltip='1 year'
                     title="MS Access"
                 />
-
+                <CardComponent
+                    image={ahk}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2 years'
+                    title="Auto Hot Key"
+                />
                 <CardComponent
                     image={git}
                     width={widthvar}
