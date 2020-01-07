@@ -8,7 +8,7 @@ import reactproj from '../Assets/ReactPortfolio.png';
 import calculator from '../Assets/jqueryCalculator.png';
 import nyt from '../Assets/nyt.png';
 import dotdata from '../Assets/DotDataProject.png';
-
+import weatherapp from '../Assets/weatherapp.png';
 
 
 function Portfoliopage(props) {
@@ -70,6 +70,15 @@ function Portfoliopage(props) {
           site='https://bookshelf-7d8bd.web.app/'
           text='Responsive design with modal slideshow, Jasmine and karma tests'
           git='https://github.com/davidfarley71/Bookshelf'
+        />
+         <CardComponent
+          image={weatherapp}
+          width={widthvar}
+          height={heightvar}
+          title="Simple weather API"
+          site='https://davidfarley71.github.io/WeatherApi/index.html'
+          text='Responsive Bootstrap live API with browser storage'
+          git='https://github.com/davidfarley71/WeatherApi'
         />
     </div>
   );
