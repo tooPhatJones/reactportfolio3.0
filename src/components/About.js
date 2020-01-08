@@ -29,6 +29,11 @@ import ahk from '../Assets/skills/ahk.jfif'
 import webpack from '../Assets/skills/webpack.png'
 import typescript from '../Assets/skills/typescript.png'
 import bable from '../Assets/skills/bable2.png'
+
+import Aplus from '../Assets/skills/A+.png'
+import javaprofessional from '../Assets/skills/javaprofessional.png'
+import javaprogramer from '../Assets/skills/javaprogramer.png'
+import NetworkPlus from '../Assets/skills/NetworkPlus.png'
 import mugshot from '../Assets/mugshot.jpg'
 import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row'
@@ -267,6 +272,36 @@ function About(props) {
                     tooltip='6 months'
                     title="Python3"
                 />
+                
+                <CardComponent
+                    image={javaprogramer}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2016'
+                    title="Oracle Java Associate Certification"
+                />
+                <CardComponent
+                    image={javaprofessional}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2016'
+                    title="Oracle Java Professional Certification"
+                />
+                <CardComponent
+                    image={Aplus}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2015'
+                    title="CompTIA A+ Certification"
+                />
+                <CardComponent
+                    image={NetworkPlus}
+                    width={widthvar}
+                    height={heightvar}
+                    tooltip='2015'
+                    title="CompTIA Network+ Certification"
+                />
+
                
             </Container>
             <Button className="contactbutton" variant="primary" onClick={() => setModalShow(true)}>

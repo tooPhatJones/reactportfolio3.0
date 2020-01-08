@@ -24,7 +24,7 @@ function CardComponent(props) {
                             {props.text}
                         </Card.Text>
                         {props.site ? <a className='projectAnchor' href={props.site} target='none'>Demo</a> : null}
-                        {props.git ? <a className='projectAnchor' href={props.git}>Github</a> : null}
+                        {props.git ? <a className='projectAnchor' href={props.git} target='none'>Github</a> : null}
                     </Card.Body>
                 </Card>
             </OverlayTrigger>
