@@ -76,7 +76,7 @@ function About(props) {
                     image={node}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='2 years'
+                    tooltip='3 years'
                     title="NodeJS"
                 />
                 <CardComponent
@@ -140,7 +140,7 @@ function About(props) {
                     image={angular}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='6 months'
+                    tooltip='1 year'
                     title="Angular 8"
                 />
                  <CardComponent
@@ -154,7 +154,7 @@ function About(props) {
                     image={pwa}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='2 years'
+                    tooltip='3 years'
                     title="PWA"
                 />
                 <CardComponent
@@ -169,7 +169,7 @@ function About(props) {
                     image={aws}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='6 months'
+                    tooltip='1 year'
                     title="AWS"
                 />
                 <CardComponent
@@ -263,16 +263,15 @@ function About(props) {
                     image={postgress}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='6 months'
+                    tooltip='1year'
                     title="PostgreSQL" />
                 <CardComponent
                     image={python}
                     width={widthvar}
                     height={heightvar}
-                    tooltip='6 months'
+                    tooltip='1 year'
                     title="Python3"
                 />
-                
                 <CardComponent
                     image={javaprogramer}
                     width={widthvar}
