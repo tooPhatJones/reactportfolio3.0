@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.App {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Open Sans";
+  font-size: 1em;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    -webkit-animation: App-logo-spin infinite 20s linear;
+            animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../Assets/5-dots.png");
+}
+
+.main .Header ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.main .Header .HeaderLi {
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  background-color: #b5aeae;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.main .Header .HeaderLi a {
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.About {
+  display: inline-block;
+  margin: 5px;
+}
+
+.About .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mugshot {
+  width: 250px;
+  height: 312px !important;
+}
+
+.photoframe {
+  color: #f8f9fa;
+}
+
+.container {
+  max-width: 96%;
+}
+
+.test {
+  background-color: red;
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+}
+
+.contactbutton {
+  margin: 50px 0 20px 0;
+}
+
+.CardComponent {
+  display: inline-block;
+  margin: 5px;
+}
+
+.projectAnchor {
+  margin: 0 10px 0 10px;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  height: 7vh;
+}
+
+.footerimg {
+  height: 5vh;
+  margin: 10px 5px 0 5px;
+}
+
+.footerimg:hover {
+  opacity: 0.5;
+}
+
+.copywrite {
+  display: inline;
+  font-size: 10px;
+  float: left;
+}
+
+.links {
+  height: 5px;
+  display: inline-block;
+}
+
+.email {
+  display: block;
+  height: 15px;
+}
+
+.contactinfo {
+  float: right;
+}
+
+.row {
+  width: 100%;
+}
+
+.CardComponent {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #282c34;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../Assets/5-dots.png");
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Portfoliopage.css';
 import CardComponent from './CardComponent'
 
 import ang from '../Assets/angularPortfolio.png';

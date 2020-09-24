@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/CardComponent.css';
 import Card from 'react-bootstrap/Card'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Button from 'react-bootstrap/Button'

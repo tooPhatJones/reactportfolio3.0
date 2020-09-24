@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/About.css';
 import CardComponent from './CardComponent'
 import react from '../Assets/skills/react2.svg'
 import access from '../Assets/skills/access.gif'
@@ -50,28 +49,29 @@ function About(props) {
     var heightvar = '100px'
     return (
         <div className="About">
-            <div className='photoframe'>
-                <Row>
-                    <Col xl={5} >
-                        <Image className='mugshot' src={mugshot} rounded />
-                    </Col>
-                    <Col xl={{ span: 6 }}>
-                        <h1>
-                            Hello!
-                    </h1>
-                        <p>
-                            My Name is David.
-                </p>
-                        <p>I am a Full Stack Web developer in the SanFrancisco Bay area.</p>
-                        <p>You can see all my skills below!</p>
-                        <p>I deliver full service web solutions to help your business maximize productivity and performance online. When it comes to websites it’s not just about creating something great looking, it needs to deliver results for you. Using my skills across both front end and back end I will produce for you not only great presentations but also scalable and performant data management systems.</p>
-                        <p>
-                            Every website and business has different needs and faces unique challenges. I have a deep technology toolkit and extensive independent experience allowing me to quickly integrate with any existing web development team or even build a project for you from scratch. Check out some samples of my work.</p>
-                    </Col>
-                </Row>
-            </div>
 
-            <Container>
+
+            {/* <Containerd> */}
+                <div className='photoframe'>
+                    <Row>
+                        <Col xl={5} >
+                            <Image className='mugshot' src={mugshot} rounded />
+                        </Col>
+                        <Col xl={{ span: 6 }}>
+                            <h1>
+                                Hello!
+                    </h1>
+                            <p>
+                                My Name is David.
+                </p>
+                            <p>I am a Full Stack Web developer in the SanFrancisco Bay area.</p>
+                            <p>You can see all my skills below!</p>
+                            <p>I deliver full service web solutions to help your business maximize productivity and performance online. When it comes to websites it’s not just about creating something great looking, it needs to deliver results for you. Using my skills across both front end and back end I will produce for you not only great presentations but also scalable and performant data management systems.</p>
+                            <p>
+                                Every website and business has different needs and faces unique challenges. I have a deep technology toolkit and extensive independent experience allowing me to quickly integrate with any existing web development team or even build a project for you from scratch. Check out some samples of my work.</p>
+                        </Col>
+                    </Row>
+                </div>
                 <CardComponent
                     image={node}
                     width={widthvar}
@@ -86,7 +86,7 @@ function About(props) {
                     tooltip='3 years'
                     title="Javascript"
                 />
-                  <CardComponent
+                <CardComponent
                     image={typescript}
                     width={widthvar}
                     height={heightvar}
@@ -122,7 +122,7 @@ function About(props) {
                     tooltip='1 year'
                     title="ExpressJS"
                 />
-                 <CardComponent
+                <CardComponent
                     image={webpack}
                     width={widthvar}
                     height={heightvar}
@@ -143,7 +143,7 @@ function About(props) {
                     tooltip='1 year'
                     title="Angular 8"
                 />
-                 <CardComponent
+                <CardComponent
                     image={vue}
                     width={widthvar}
                     height={heightvar}
@@ -301,8 +301,8 @@ function About(props) {
                     title="CompTIA Network+ Certification"
                 />
 
-               
-            </Container>
+
+            {/* </Containerd> */}
             <Button className="contactbutton" variant="primary" onClick={() => setModalShow(true)}>
                 Contact me!
       </Button>

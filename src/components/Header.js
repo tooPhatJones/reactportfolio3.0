@@ -1,5 +1,4 @@
 import React from 'react';
-import '../css/Header.css';
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Form from 'react-bootstrap/Form'
@@ -10,20 +9,13 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <div className="Header">
-            <Navbar bg="light" expand="lg">
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home"><Link to='/About'>About</Link></Nav.Link>
-                        
-
-                        <Nav.Link
-                            href="#link">  <Link to='/Portfoliopage'>Portfolio</Link></Nav.Link>
-                        <a class='loneanchor'
-                            href="https://docs.google.com/document/d/1YP1scTyrv3Z-voqNcL6EVOPC5KF4vi2nyamLb9ldfQo/edit" target='none'>  Resume</a>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+            <ul>
+                <li className="HeaderLi"><Link to='/About'>About</Link></li>
+                <li className="HeaderLi"><Link to='/Portfoliopage'>Portfolio</Link></li>
+                <li className="HeaderLi"><a
+                    href="https://docs.google.com/document/d/1YP1scTyrv3Z-voqNcL6EVOPC5KF4vi2nyamLb9ldfQo/edit" target='none'>  Resume</a></li>
+                <li className="HeaderLi"><Link to='/blog'>Blog</Link></li>
+            </ul>
         </div >
     );
 }
